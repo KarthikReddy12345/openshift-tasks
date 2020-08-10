@@ -62,11 +62,11 @@
     <distributionManagement>
         <repository>
             <id>nexus</id>
-            <url>http://nexus:8081/content/repositories/releases</url>
+            <url>http://http://ec2-18-190-79-162.us-east-2.compute.amazonaws.com/:8081/repositories/releases</url>
         </repository>
         <snapshotRepository>
             <id>nexus</id>
-            <url>http://nexus:8081/content/repositories/snapshots</url>
+            <url>http://http://ec2-18-190-79-162.us-east-2.compute.amazonaws.com/:8081/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
